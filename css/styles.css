@@ -1,0 +1,102 @@
+:root{
+    --IRIS: #4D5AE5;
+    --NAVY-BLUE: #2E2F42;
+    --WHITE: #FFF;
+    --SLATE: #434455;
+    --CLOUD: #F4F4FD;
+} 
+    /* General Style */
+body{
+    font-family: "Roboto", sans-serif;
+}
+.link{
+    text-decoration: none;
+    color: var(--NAVY-BLUE);
+    padding: 0;
+    margin: 0;
+    
+}
+.list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.p-text {
+    color: var(--SLATE);
+}
+.section-title{
+    text-align: center;
+    color: var(--NAVY-BLUE);
+}
+.team-name {
+    color: var(--NAVY-BLUE);
+}   /* End of General Style */
+
+
+    /* Header Section (NAV) */
+.header-logo{
+    color: var(--NAVY-BLUE);
+    font-family: Raleway;
+    font-weight: 800;
+}
+.header-logo span{
+    color: var(--IRIS);
+}
+.header-logo:hover{
+    color: var(--IRIS);
+}
+.link:hover{
+    color: var(--IRIS);
+}   /* End of Header Section (NAV) */
+
+
+    /* Benefit Section */
+.hero-txt{
+    text-align: center;
+}
+.benefit-title {
+    color: var(--WHITE);
+    background-color: var(--NAVY-BLUE);
+}
+.hero-btn {
+    color: var(--WHITE);
+    background-color: var(--IRIS);
+    border: none;
+    border-radius: 25px;
+}
+.hero-btn:hover{
+    background-color: goldenrod;
+    cursor: pointer;
+}   /* End Benefit Section */
+
+
+    /* We Do Section */
+
+    /* End of We Do Section */
+
+
+    /* Team Section */
+
+    /* End of Team Section */
+
+
+    /* Footer Section */
+.footer{
+    background-color: var(--NAVY-BLUE);
+ }   
+.footer-logo {
+    text-decoration: none;
+    color: var(--CLOUD);
+    font-family: Raleway;
+    font-weight: 800;
+}
+.footer-text{
+    color: var(--CLOUD);
+}
+.footer-logo span {
+    color: var(--IRIS);
+}
+.footer-logo:hover {
+    color: var(--IRIS);
+}
+    /* End of Footer Section */
